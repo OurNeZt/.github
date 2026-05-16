@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Replace with organization logo when available -->
-  <img width="400" src="./assets/OurNeZt-org-logo.png" alt="OurNeZt Logo">
+  <img width="400" src="./assets/OurNeZt-org-transparent-logo.png" alt="OurNeZt Logo">
 </div>
 
 <h1 align="center">OurNeZt</h1>
