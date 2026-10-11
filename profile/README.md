@@ -65,12 +65,11 @@ Deploy `v1.2.0` includes Helm chart `0.3.0`. Authentication limits recover autom
 
 ## How it fits together
 
-```mermaid
-flowchart LR
-    Browser[Browser] --> Web[OurNeZt Web]
-    Web -->|gRPC| Core[OurNeZt Core]
-    Core --> Database[(PostgreSQL)]
-```
+<p align="center">
+  <a href="https://raw.githubusercontent.com/OurNeZt/.github/main/assets/OurNeZt-architecture-diag.png">
+    <img src="https://raw.githubusercontent.com/OurNeZt/.github/main/assets/OurNeZt-architecture-diag.png" alt="OurNeZt architecture: runtime, API contracts, authentication, persistence, and delivery" width="100%">
+  </a>
+</p>
 
 Core owns the financial calculations and stored planning data. Web provides the user interface and calls Core through gRPC. Deploy configures the three services for Docker Compose or Kubernetes with Helm.
 
